@@ -1,0 +1,57 @@
+/*
+* SMACSS + SCSS starter v1.0
+* Inspired by SMACSS http://smacss.com
+* Author: @davidibanez
+* Date: 07 Avril 2016
+*
+* https://github.com/davideti38/sass-grunt-boilerplate
+*
+*/
+
+
+/* ------ Vendors --------*/
+
+@import "vendors/normalize";
+@import "vendors/bourbon/bourbon";
+@import "vendors/susy/susy";
+@import "vendors/compass_rhythm/compass_rhythm";
+
+/* ------ Settings --------*/
+
+@import "settings/config";
+@import "settings/functions";
+@import "settings/mixins";
+@import "settings/helpers";
+
+
+/* ------ Base --------*/
+
+@import "base/base";
+
+/* ------ Layout --------*/
+
+@import "layout/grid";
+@import "layout/wrappers";
+
+/* ------ components --------*/
+
+@import "components/extends";
+@import "components/btn";
+@import "components/headlines";
+@import "components/labels";
+@import "components/text";
+
+/* ------ Modules --------*/
+
+@import "modules/extends";
+@import "modules/icons";
+@import "modules/header";
+@import "modules/footer";
+
+/* ------ Elements --------*/
+
+@import "elements/home_about";
+
+/* ------ States --------*/
+
+@import "states/cssAnimations";
