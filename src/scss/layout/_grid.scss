@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Grid elements.
+// All the grid elements are named the same way "grid__nameOfTheElement".
+// -----------------------------------------------------------------------------
+
+
+.grid{
+
+	@include e(container) {
+
+		 padding:10px;
+		 background: #19191f;
+	}
+
+	@include e(container--contact) {
+
+	}
+
+
+}
+
+

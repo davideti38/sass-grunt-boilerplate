@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all the paceholder rules for all the components.
+// -----------------------------------------------------------------------------
+
+
+%hdln-xlarge {
+	@extend h2;
+}
+
+%hdln-large {
+	@extend h3;
+}
+
+%hdln-meduim {
+	@extend h4;
+}
+
+%hdln-small {
+	@extend h5;
+}
+
+%hdln-xsmall {
+	@extend h6;
+}
+
+%hdl-sous-titre-project{
+
+	@include adjust-font-size-to(22px);
+	font-family     : $font-family--primary--regular;
+	font-weight: 900;
+}
+

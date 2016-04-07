@@ -1,0 +1,16 @@
+/* ===========================
+   functions
+   =========================== */
+
+// img link
+
+@function img-path($name, $extention : 'png') {
+  $url:url("../img/#{$name}.#{$extention}");
+  @return  $url;
+}
+
+
+@function is-valid-length($value) {
+  @return (type-of($value) == "number" and not unitless($value))
+       or (index(auto initial inherit 0, $value) != false);
+}
